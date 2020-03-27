@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-syntax-improved-piped-pipelines-operator",
   "description": "syntax for babel-plugin-improved-piped-pipelines",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "author": "Edwin Kofler",
   "license": "MIT",
   "keywords": [
@@ -12,11 +12,13 @@
   ],
   "main": "index.js",
   "scripts": {},
+  "dependencies": {
+    "@babel/helper-plugin-utils": "^7.8.3"
+  },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0"
   },
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/helper-plugin-utils": "^7.8.3"
+    "@babel/core": "^7.9.0"
   }
 }
