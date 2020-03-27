@@ -1,9 +1,9 @@
-import syntaxPipelineOperator from '@babel/plugin-syntax-pipeline-operator'
+import improvedPipedPipelinesOperator from '../babel-plugin-syntax-improved-piped-pipelines-operator'
 
 export default function ({ types: t }) {
   return {
     name: 'babel-plugin-improved-piped-pipelines',
-    inherits: syntaxPipelineOperator,
+    inherits: improvedPipedPipelinesOperator,
     visitor: {
       BinaryExpression(path) {
         const { node } = path

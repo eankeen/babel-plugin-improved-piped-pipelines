@@ -21,7 +21,7 @@
     ]
   },
   "dependencies": {
-    "@babel/plugin-syntax-pipeline-operator": "^7.8.3"
+    "babel-plugin-syntax-improved-piped-pipelines-operator": "0.1.1"
   },
   "peerDependencies": {
     "@babel/core": "^7.0.0-0"

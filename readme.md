@@ -35,7 +35,15 @@ Note that only the `minimal` proposal has been tested
 ```json
 {
   "plugins": [
-    ["babel-plugin-improved-piped-pipelines", { "proposal": "minimal"}]
+    ["babel-plugin-improved-piped-pipelines", { "proposal": "minimal" }]
   ]
 }
+```
+
+## Contributing
+
+```sh
+git clone https://github.com/eankeen/babel-improved-piped-pipelines
+cd babel-improved-piped-pipelines
+pnpm i -r
 ```
