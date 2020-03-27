@@ -17,9 +17,10 @@ importers:
       babel-plugin-syntax-improved-piped-pipelines-operator: ^0.2.0
       esm: ^3.2.25
   babel-plugin-syntax-improved-piped-pipelines-operator:
+    dependencies:
+      '@babel/helper-plugin-utils': 7.8.3
     devDependencies:
       '@babel/core': 7.9.0
-      '@babel/helper-plugin-utils': 7.8.3
     specifiers:
       '@babel/core': ^7.9.0
       '@babel/helper-plugin-utils': ^7.8.3
@@ -133,7 +134,7 @@ packages:
     resolution:
       integrity: sha512-Kag20n86cbO2AvHca6EJsvqAd82gc6VMGule4HwebwMlwkpXuVqrNRj6CkCV2sKxgi9MyAUnZVnZ6lJ1/vKhHQ==
   /@babel/helper-plugin-utils/7.8.3:
-    dev: true
+    dev: false
     resolution:
       integrity: sha512-j+fq49Xds2smCUNYmEHF9kGNkhbet6yVIBp4e6oeQpH1RUs/Ir06xUKzDjDkGcaaokPiTNs2JBWHjaE4csUkZQ==
   /@babel/helper-replace-supers/7.8.6:
