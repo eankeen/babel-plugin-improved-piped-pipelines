@@ -33,7 +33,6 @@ gulp.src('style.css')
 Note that only the `minimal` proposal has been tested
 
 ```json
-// .babelrc
 {
   "plugins": [
     ["babel-plugin-improved-piped-pipelines", { "proposal": "minimal"}]
