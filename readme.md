@@ -44,4 +44,5 @@ gulp.src('style.css')
 git clone https://github.com/eankeen/babel-improved-piped-pipelines
 cd babel-improved-piped-pipelines
 pnpm i -r
+pnpm publish
 ```

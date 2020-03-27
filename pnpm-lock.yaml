@@ -14,7 +14,7 @@ importers:
     specifiers:
       '@babel/core': ^7.9.0
       ava: ^3.5.1
-      babel-plugin-syntax-improved-piped-pipelines-operator: 'workspace:^0.1.1'
+      babel-plugin-syntax-improved-piped-pipelines-operator: ^0.2.0
       esm: ^3.2.25
   babel-plugin-syntax-improved-piped-pipelines-operator:
     devDependencies:
@@ -39,7 +39,7 @@ importers:
     specifiers:
       '@babel/core': ^7.9.0
       '@babel/register': ^7.9.0
-      babel-plugin-improved-piped-pipelines: 'workspace:^0.1.1'
+      babel-plugin-improved-piped-pipelines: 0.2.0
       cssnano: ^4.1.10
       esm: ^3.2.25
       gulp: ^4.0.2
