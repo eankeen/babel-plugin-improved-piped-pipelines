@@ -4,8 +4,6 @@ Piggybacks on the new [pipeline operator syntax](https://github.com/tc39/proposa
 
 Right now, it depends on the conflicting pipeline JavaScript feature, so I hope to repurpose the `|>` syntax to something else.
 
-*Note*: This is a very `0.1.0` quality plugin. Use at your own risk
-
 ## Example
 
 ### Input
@@ -30,7 +28,7 @@ gulp.src('style.css')
 
 ## Usage
 
-Note that only the `minimal` proposal has been tested
+`proposal` can be one of `pipeline`, `arrow`, or `minimal`. But, `minimal` is the only valid option. Eventually, `minimal` will be deprecated for `pipeline` while `arrow` will become the default.
 
 ```json
 {
