@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-improved-piped-pipelines",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Edwin Kofler",
   "description": "transpiles custom syntax to gulp-like pipelines",
   "keywords": [
