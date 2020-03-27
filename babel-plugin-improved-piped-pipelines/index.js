@@ -9,7 +9,6 @@ export default function ({ types: t }) {
         const { node } = path
 
         if (!path.isBinaryExpression({ operator: '|>' })) return
-        // if (node.operator !== '|>') return
 
         path.replaceWith(
           t.expressionStatement(

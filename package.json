@@ -1,36 +1,11 @@
 {
-  "name": "babel-plugin-improved-piped-pipelines",
-  "version": "0.1.1",
+  "name": "babel-improved-piped-pipelines",
+  "private": true,
   "author": "Edwin Kofler",
-  "description": "transpiles custom syntax to gulp-like pipelines",
-  "keywords": [
-    "babel",
-    "plugin",
-    "babel-plugin",
-    "gulp",
-    "pipeline"
-  ],
-  "license": "MIT",
-  "main": "index.js",
   "scripts": {
-    "format": "prettier --write '**/*'",
-    "test": "ava '**/*.test.js'"
+    "format": "prettier --write '**/*'"
   },
-  "ava": {
-    "require": [
-      "esm"
-    ]
-  },
-  "dependencies": {
-    "@babel/plugin-syntax-pipeline-operator": "^7.8.3"
-  },
-  "peerDependencies": {
-    "@babel/core": "^7.0.0-0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "ava": "^3.5.1",
-    "esm": "^3.2.25",
-    "prettier": "^2.0.2"
-  }
+	"devDependencies": {
+		"prettier": "^2.0.2"
+	}
 }

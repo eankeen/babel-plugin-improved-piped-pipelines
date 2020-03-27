@@ -1,0 +1,23 @@
+{
+  "name": "babel-syntax-improved-piped-pipelines",
+  "description": "syntax for babel-plugin-improved-piped-pipelines",
+  "version": "0.1.1",
+  "author": "Edwin Kofler",
+  "license": "MIT",
+  "keywords": [
+    "babel",
+    "syntax",
+    "babel-syntax",
+    "pipeline"
+  ],
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.0.0-0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  }
+}
