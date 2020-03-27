@@ -25,7 +25,7 @@ test('testing for match', async t => {
       ],
       ast: true
     })
-    fs.promises.writeFile('temp', code)
+    // fs.promises.writeFile('temp', code)
     t.is(output, code)
   } catch (err) {
     console.error(err)

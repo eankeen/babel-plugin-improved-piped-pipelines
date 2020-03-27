@@ -2,13 +2,15 @@
   "name": "babel-plugin-improved-piped-pipelines",
   "version": "0.1.0",
   "author": "Edwin Kofler",
-  "description": "babel plugin to have cool pipes in gulp",
+  "description": "transpiles custom syntax to gulp-like pipelines",
   "keywords": [
     "babel",
     "plugin",
-    "babel-plugin"
+    "babel-plugin",
+    "gulp",
+    "pipeline"
   ],
-  "license": "GPL-2.0",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "format": "prettier --write '**/*'",
