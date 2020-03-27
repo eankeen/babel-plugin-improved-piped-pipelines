@@ -1,0 +1,7 @@
+.editorconfig
+.prettierignore
+pnpm-lock.yaml
+yarn.lock
+*.min
+*.map
+*.out.js
