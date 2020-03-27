@@ -1,5 +1,5 @@
 {
-  "name": "babel-syntax-improved-piped-pipelines",
+  "name": "babel-plugin-syntax-improved-piped-pipelines-operator",
   "description": "syntax for babel-plugin-improved-piped-pipelines",
   "version": "0.1.1",
   "author": "Edwin Kofler",

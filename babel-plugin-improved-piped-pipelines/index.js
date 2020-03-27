@@ -1,4 +1,4 @@
-import improvedPipedPipelinesOperator from '../babel-plugin-syntax-improved-piped-pipelines-operator'
+import improvedPipedPipelinesOperator from 'babel-plugin-syntax-improved-piped-pipelines-operator'
 
 export default function ({ types: t }) {
   return {
