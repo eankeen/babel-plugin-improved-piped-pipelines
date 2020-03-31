@@ -1,7 +1,7 @@
 {
   "name": "babel-plugin-improved-piped-pipelines",
   "description": "transpiles custom syntax to gulp-like pipelines",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "author": "Edwin Kofler",
   "license": "MIT",
   "keywords": [
