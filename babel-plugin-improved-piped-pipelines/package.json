@@ -11,6 +11,14 @@
     "gulp",
     "pipeline"
   ],
+  "homepage": "https://github.com/eankeen/babel-improved-piped-pipelines#readme",
+  "bugs": {
+    "url": "https://github.com/eankeen/babel-improved-piped-pipelines/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eankeen/babel-improved-piped-pipelines"
+  },
   "main": "index.js",
   "scripts": {
     "test": "ava '**/*.test.js'"
