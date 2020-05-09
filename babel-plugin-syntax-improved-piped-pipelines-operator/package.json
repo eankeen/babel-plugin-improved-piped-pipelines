@@ -16,7 +16,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eankeen/babel-improved-piped-pipelines"
+    "url": "https://github.com/eankeen/babel-improved-piped-pipelines",
+    "directory": "babel-plugin-syntax-improved-piped-pipelines-operator"
   },
   "main": "index.js",
   "scripts": {},

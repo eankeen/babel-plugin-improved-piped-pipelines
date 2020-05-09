@@ -5,7 +5,8 @@
   "scripts": {
     "format": "prettier --write '**/*'"
   },
-	"devDependencies": {
-		"prettier": "^2.0.2"
-	}
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "prettier": "^2.0.2"
+  }
 }
