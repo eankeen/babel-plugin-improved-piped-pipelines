@@ -1,6 +1,6 @@
 {
   "name": "example-improved-piped-pipelines",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "private": true,
   "author": "Edwin Kofler",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@babel/core": "^7.9.0",
     "@babel/register": "^7.9.0",
-    "babel-plugin-improved-piped-pipelines": "^1.0.1",
+    "babel-plugin-improved-piped-pipelines": "^1.0.2",
     "cssnano": "^4.1.10",
     "esm": "^3.2.25",
     "gulp": "^4.0.2",
