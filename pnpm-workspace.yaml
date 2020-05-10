@@ -1,4 +1,2 @@
 workspacePackages:
-  - babel-plugin-*
-  - example
-  - '**/*'
+  - '*'

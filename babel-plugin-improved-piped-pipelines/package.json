@@ -2,6 +2,7 @@
   "name": "babel-plugin-improved-piped-pipelines",
   "description": "transpiles custom syntax to gulp-like pipelines",
   "version": "0.2.6",
+  "type": "commonjs",
   "author": "Edwin Kofler",
   "license": "MIT",
   "keywords": [
@@ -22,7 +23,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "test": "ava '**/*.test.js'"
+    "test": "ava -v '**/*.test.js'"
   },
   "ava": {
     "require": [
