@@ -8,6 +8,6 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "husky": "^4.2.5",
-    "prettier": "^2.0.2"
+    "prettier": "^2.0.5"
   }
 }

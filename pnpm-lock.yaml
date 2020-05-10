@@ -7,7 +7,7 @@ importers:
     specifiers:
       gulp: ^4.0.2
       husky: ^4.2.5
-      prettier: ^2.0.2
+      prettier: ^2.0.5
   babel-plugin-improved-piped-pipelines:
     dependencies:
       babel-plugin-syntax-improved-piped-pipelines-operator: 'link:../babel-plugin-syntax-improved-piped-pipelines-operator'
@@ -18,7 +18,7 @@ importers:
     specifiers:
       '@babel/core': ^7.9.0
       ava: ^3.5.1
-      babel-plugin-syntax-improved-piped-pipelines-operator: 'workspace:^0.2.6'
+      babel-plugin-syntax-improved-piped-pipelines-operator: 'workspace:^1.0.0'
       esm: ^3.2.25
   babel-plugin-syntax-improved-piped-pipelines-operator:
     dependencies:
@@ -46,7 +46,7 @@ importers:
     specifiers:
       '@babel/core': ^7.9.0
       '@babel/register': ^7.9.0
-      babel-plugin-improved-piped-pipelines: 'workspace:0.2.6'
+      babel-plugin-improved-piped-pipelines: 'workspace:1.0.0'
       cssnano: ^4.1.10
       esm: ^3.2.25
       gulp: ^4.0.2
@@ -4587,7 +4587,7 @@ packages:
   /remove-bom-stream/1.2.0:
     dependencies:
       remove-bom-buffer: 3.0.0
-      safe-buffer: 5.1.2
+      safe-buffer: 5.2.0
       through2: 2.0.5
     dev: true
     engines:
@@ -4743,6 +4743,10 @@ packages:
   /safe-buffer/5.1.2:
     resolution:
       integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  /safe-buffer/5.2.0:
+    dev: true
+    resolution:
+      integrity: sha512-fZEwUGbVl7kouZs1jCdMLdt95hdIv0ZeHg6L7qPeciMZhZ+/gdesW4wgTARkrFWEpspjEATAzUGPG8N2jJiwbg==
   /safe-regex/1.1.0:
     dependencies:
       ret: 0.1.15
