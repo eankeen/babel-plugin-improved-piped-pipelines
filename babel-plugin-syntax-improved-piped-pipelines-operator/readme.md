@@ -28,12 +28,12 @@ gulp.src('style.css')
 
 ## Usage
 
-`proposal` can be one of `pipeline`, `arrow`, or `minimal`. But, `minimal` is the only valid option. Eventually, `minimal` will be deprecated for `pipeline` while `arrow` will become the default.
+`operator` options can be any of the following: `['|>', '||', '&&', '??']`. the default is the pipeline operator
 
 ```json
 {
   "plugins": [
-    ["babel-plugin-improved-piped-pipelines", { "proposal": "minimal" }]
+    ["babel-plugin-improved-piped-pipelines", { "operator": "|>" }]
   ]
 }
 ```

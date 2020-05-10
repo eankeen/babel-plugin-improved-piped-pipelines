@@ -6,8 +6,10 @@
     "format": "prettier --write '**/*'"
   },
   "devDependencies": {
+    "esm": "^3.2.25",
     "gulp": "^4.0.2",
     "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
     "prettier": "^2.0.5"
   }
 }
