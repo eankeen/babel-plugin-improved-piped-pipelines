@@ -13,7 +13,7 @@ export default function (api, options) {
       BinaryExpression(path) {
         const { node } = path
 
-        if (!t.isBinaryExpression(node, { operator })) return
+        if (!path.isBinaryExpression({ operator })) return
 
         path.replaceWith(
           t.expressionStatement(
@@ -27,7 +27,8 @@ export default function (api, options) {
       LogicalExpression(path) {
         const { node } = path
 
-        if(!t.isLogicalExpression(node, { operator })) return
+        // if (!path.isBinaryExpression({ operator })) return
+        if (!t.isLogicalExpression(node, { operator })) return
 
         path.replaceWith(
           t.expressionStatement(

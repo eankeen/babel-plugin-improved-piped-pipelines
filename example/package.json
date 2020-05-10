@@ -1,7 +1,8 @@
 {
-  "name": "gulp-better-pipe-example",
+  "name": "example-improved-piped-pipelines",
   "version": "0.0.0",
   "description": "",
+  "private": true,
   "author": "Edwin Kofler",
   "license": "MIT",
   "main": "gulpfile.js",
