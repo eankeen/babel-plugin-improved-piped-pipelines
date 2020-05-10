@@ -6,8 +6,6 @@ export default function (api, options) {
   const { types: t } = api
   const { operator } = options
 
-  console.log('plugin', operator, typeof operator)
-
   return {
     name: 'babel-plugin-improved-piped-pipelines',
     inherits: improvedPipedPipelinesOperator,
