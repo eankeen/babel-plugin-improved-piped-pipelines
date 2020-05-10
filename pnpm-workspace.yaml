@@ -1,2 +1,3 @@
 workspacePackages:
-  - '*'
+  - 'babel-plugin-'
+  - example

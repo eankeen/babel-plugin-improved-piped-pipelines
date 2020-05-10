@@ -12,7 +12,6 @@ gulp.src('src')
 
 for (const proposalVariant of proposalVariants) {
   test(`testing snapshot for operator ${proposalVariant.operator}`, async t => {
-    console.log('jest', proposalVariant)
     try {
       const { code } = await transformAsync(proposalVariant.text, {
         plugins: [
@@ -25,10 +24,12 @@ for (const proposalVariant of proposalVariants) {
         ],
         ast: true
       })
-      // fs.promises.writeFile('temp', code)
+
       t.snapshot(code)
+      t.pass()
     } catch (err) {
       console.error(err)
+      t.fail()
     }
   })
 }

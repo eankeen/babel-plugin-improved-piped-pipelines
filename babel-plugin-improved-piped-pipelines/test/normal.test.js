@@ -25,10 +25,11 @@ test('generic fixture test', async t => {
       ],
       ast: true
     })
-    // fs.promises.writeFile('temp', code)
+
     t.is(output, code)
   } catch (err) {
     console.error(err)
+    t.fail()
   }
 })
 
@@ -53,10 +54,11 @@ test('generic fixture test 2', async t => {
       ],
       ast: true
     })
-    // fs.promises.writeFile('temp', code)
+
     t.is(output, code)
   } catch (err) {
     console.error(err)
+    t.fail()
   }
 })
 
