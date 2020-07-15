@@ -1,5 +1,5 @@
 {
   "hooks": {
-    "pre-commit": "yarn gulp --require esm"
+    "pre-commit": "pnpm run copyFiles"
   }
 }

@@ -3,10 +3,9 @@
   "private": true,
   "author": "Edwin Kofler",
   "scripts": {
-    "format": "prettier --write '**/*'"
+    "copyFiles": "gulp copyFiles"
   },
   "devDependencies": {
-    "esm": "^3.2.25",
     "gulp": "^4.0.2",
     "husky": "^4.2.5",
     "lerna": "^3.20.2",
