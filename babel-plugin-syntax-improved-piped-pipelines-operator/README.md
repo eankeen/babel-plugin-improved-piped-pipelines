@@ -2,8 +2,6 @@
 
 Piggybacks on the new [pipeline operator syntax](https://github.com/tc39/proposal-pipeline-operator) to improve developer experience when using a gulp-like piping API. Mainly reduces the repetitive `.pipe` call and the messy closing parenthesis `))`
 
-Right now, it depends on the conflicting pipeline JavaScript feature, so I hope to repurpose the `|>` syntax to something else.
-
 ## Example
 
 ### Input
