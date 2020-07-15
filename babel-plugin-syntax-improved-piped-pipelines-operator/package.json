@@ -4,6 +4,7 @@
   "version": "1.0.2",
   "author": "Edwin Kofler",
   "license": "MIT",
+  "files": [],
   "keywords": [
     "babel",
     "syntax",

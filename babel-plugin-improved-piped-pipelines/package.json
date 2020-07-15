@@ -5,6 +5,7 @@
   "type": "commonjs",
   "author": "Edwin Kofler",
   "license": "MIT",
+  "files": [],
   "keywords": [
     "babel",
     "plugin",

@@ -1,10 +1,13 @@
-import improvedPipedPipelinesOperator from 'babel-plugin-syntax-improved-piped-pipelines-operator'
+const improvedPipedPipelinesOperator = require('babel-plugin-syntax-improved-piped-pipelines-operator')
 
+/**
+ * @param {string} operator
+ */
 function checkOperator(operator) {
   const supportedOperators = new Set(['|>', '||', '&&', '??'])
   let supportedOperatorsString = ''
   supportedOperators.forEach(
-    (supportedOp) => (supportedOperatorsString += supportedOp + ' ')
+    supportedOp => (supportedOperatorsString += supportedOp + ' ')
   )
 
   if (!supportedOperators.has(operator)) {
@@ -15,7 +18,12 @@ function checkOperator(operator) {
     )
   }
 }
-export default function (api, options) {
+
+/**
+ * @param {Record<string, any>} api
+ * @param {Record<string, any>} options
+ */
+module.exports = function (api, options) {
   api.assertVersion(7)
 
   if (options && options.proposal) {
@@ -32,6 +40,10 @@ export default function (api, options) {
     name: 'babel-plugin-improved-piped-pipelines',
     inherits: improvedPipedPipelinesOperator,
     visitor: {
+      /**
+       *
+       * @param {any} path
+       */
       BinaryExpression(path) {
         const { node } = path
 
@@ -46,6 +58,10 @@ export default function (api, options) {
           )
         )
       },
+      /**
+       *
+       * @param {any} path
+       */
       LogicalExpression(path) {
         const { node } = path
 
