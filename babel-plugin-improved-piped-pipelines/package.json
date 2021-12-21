@@ -1,45 +1,45 @@
 {
-  "name": "babel-plugin-improved-piped-pipelines",
-  "description": "transpiles custom syntax to gulp-like pipelines",
-  "version": "1.2.0",
-  "type": "commonjs",
-  "author": "Edwin Kofler",
-  "license": "MIT",
-  "files": [],
-  "keywords": [
-    "babel",
-    "plugin",
-    "babel-plugin",
-    "gulp",
-    "pipeline"
-  ],
-  "homepage": "https://github.com/eankeen/babel-improved-piped-pipelines#readme",
-  "bugs": {
-    "url": "https://github.com/eankeen/babel-improved-piped-pipelines/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eankeen/babel-improved-piped-pipelines",
-    "directory": "babel-plugin-improved-piped-pipelines"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "ava -v '**/*.test.js'"
-  },
-  "ava": {
-    "require": [
-      "esm"
-    ]
-  },
-  "dependencies": {
-    "babel-plugin-syntax-improved-piped-pipelines-operator": "^1.0.2"
-  },
-  "peerDependencies": {
-    "@babel/core": "^7.0.0-0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "ava": "^3.8.2",
-    "esm": "^3.2.25"
-  }
+	"name": "babel-plugin-improved-piped-pipelines",
+	"description": "transpiles custom syntax to gulp-like pipelines",
+	"version": "1.2.0",
+	"type": "commonjs",
+	"author": "Edwin Kofler",
+	"license": "MIT",
+	"files": [],
+	"keywords": [
+		"babel",
+		"plugin",
+		"babel-plugin",
+		"gulp",
+		"pipeline"
+	],
+	"homepage": "https://github.com/eankeen/babel-improved-piped-pipelines#readme",
+	"bugs": {
+		"url": "https://github.com/eankeen/babel-improved-piped-pipelines/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/eankeen/babel-improved-piped-pipelines",
+		"directory": "babel-plugin-improved-piped-pipelines"
+	},
+	"main": "index.js",
+	"scripts": {
+		"test": "ava -v '**/*.test.js'"
+	},
+	"ava": {
+		"require": [
+			"esm"
+		]
+	},
+	"dependencies": {
+		"babel-plugin-syntax-improved-piped-pipelines-operator": "^1.0.2"
+	},
+	"peerDependencies": {
+		"@babel/core": "^7.0.0-0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"ava": "^3.8.2",
+		"esm": "^3.2.25"
+	}
 }

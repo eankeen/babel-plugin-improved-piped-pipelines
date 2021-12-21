@@ -1,34 +1,34 @@
 {
-  "name": "babel-plugin-syntax-improved-piped-pipelines-operator",
-  "description": "syntax for babel-plugin-improved-piped-pipelines",
-  "version": "1.2.0",
-  "author": "Edwin Kofler",
-  "license": "MIT",
-  "files": [],
-  "keywords": [
-    "babel",
-    "syntax",
-    "babel-syntax",
-    "pipeline"
-  ],
-  "homepage": "https://github.com/eankeen/babel-improved-piped-pipelines#readme",
-  "bugs": {
-    "url": "https://github.com/eankeen/babel-improved-piped-pipelines/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/eankeen/babel-improved-piped-pipelines",
-    "directory": "babel-plugin-syntax-improved-piped-pipelines-operator"
-  },
-  "main": "index.js",
-  "scripts": {},
-  "dependencies": {
-    "@babel/helper-plugin-utils": "^7.8.3"
-  },
-  "peerDependencies": {
-    "@babel/core": "^7.0.0-0"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.9.0"
-  }
+	"name": "babel-plugin-syntax-improved-piped-pipelines-operator",
+	"description": "syntax for babel-plugin-improved-piped-pipelines",
+	"version": "1.2.0",
+	"author": "Edwin Kofler",
+	"license": "MIT",
+	"files": [],
+	"keywords": [
+		"babel",
+		"syntax",
+		"babel-syntax",
+		"pipeline"
+	],
+	"homepage": "https://github.com/eankeen/babel-improved-piped-pipelines#readme",
+	"bugs": {
+		"url": "https://github.com/eankeen/babel-improved-piped-pipelines/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/eankeen/babel-improved-piped-pipelines",
+		"directory": "babel-plugin-syntax-improved-piped-pipelines-operator"
+	},
+	"main": "index.js",
+	"scripts": {},
+	"dependencies": {
+		"@babel/helper-plugin-utils": "^7.8.3"
+	},
+	"peerDependencies": {
+		"@babel/core": "^7.0.0-0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.9.0"
+	}
 }

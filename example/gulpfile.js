@@ -5,13 +5,13 @@ import postcss from 'gulp-postcss'
 import rename from 'gulp-rename'
 
 async function minifyCss() {
-  src('style.css')
-    |> plumber()
-    |> sourcemaps.init()
-    |> postcss()
-    |> rename('style.min.css')
-    |> sourcemaps.write('.')
-    |> dest('.')
+	src('style.css')
+		|> plumber()
+		|> sourcemaps.init()
+		|> postcss()
+		|> rename('style.min.css')
+		|> sourcemaps.write('.')
+		|> dest('.')
 }
 
 export { minifyCss, minifyCss as default }

@@ -1,15 +1,13 @@
 {
-  "name": "babel-improved-piped-pipelines",
-  "private": true,
-  "author": "Edwin Kofler",
-  "scripts": {
-    "copyFiles": "gulp copyFiles"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "husky": "^4.2.5",
-    "lerna": "^3.20.2",
-    "lint-staged": "^10.2.2",
-    "prettier": "^2.0.5"
-  }
+	"name": "babel-improved-piped-pipelines",
+	"private": true,
+	"author": "Edwin Kofler <edwin@kofler.dev>",
+	"scripts": {
+		"copyFiles": "gulp copyFiles"
+	},
+	"devDependencies": {
+		"gulp": "^4.0.2",
+		"lerna": "^3.20.2",
+		"prettier": "^2.0.5"
+	}
 }

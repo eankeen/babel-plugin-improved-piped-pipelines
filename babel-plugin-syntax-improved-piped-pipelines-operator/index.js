@@ -8,20 +8,20 @@ module.exports = declare(syntax)
  * @param {Record<string, any>} options
  */
 function syntax(api, options) {
-  api.assertVersion(7)
+	api.assertVersion(7)
 
-  return {
-    name: 'syntax-improved-piped-pipelines-operator',
+	return {
+		name: 'syntax-improved-piped-pipelines-operator',
 
-    /**
-     * @param {Record<string, any>} opts
-     * @param {Record<string, any>} parserOpts
-     */
-    manipulateOptions(opts, parserOpts) {
-      // if (options.operator !== '|>') return
+		/**
+		 * @param {Record<string, any>} opts
+		 * @param {Record<string, any>} parserOpts
+		 */
+		manipulateOptions(opts, parserOpts) {
+			// if (options.operator !== '|>') return
 
-      // TODO: upgrade proposal to F# or smart
-      parserOpts.plugins.push(['pipelineOperator', { proposal: 'minimal' }])
-    }
-  }
+			// TODO: upgrade proposal to F# or smart
+			parserOpts.plugins.push(['pipelineOperator', { proposal: 'minimal' }])
+		},
+	}
 }
