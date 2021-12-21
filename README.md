@@ -10,20 +10,21 @@ Right now, it depends on the conflicting pipeline JavaScript feature, so I hope 
 
 ```js
 gulp.src('style.css')
-  |> plumber()
-  |> postcss()
-  |> rename('style.min.css')
-  |> gulp.dest('dist')
+	|> plumber()
+	|> postcss()
+	|> rename('style.min.css')
+	|> gulp.dest('dist')
 ```
 
 ### Output
 
 ```js
-gulp.src('style.css')
-  .pipe(plumber())
-  .pipe(postcss())
-  .pipe(rename('style.min.css'))
-  .pipe(gulp.dest('dist'))
+gulp
+	.src('style.css')
+	.pipe(plumber())
+	.pipe(postcss())
+	.pipe(rename('style.min.css'))
+	.pipe(gulp.dest('dist'))
 ```
 
 ## Usage
@@ -32,9 +33,7 @@ gulp.src('style.css')
 
 ```json
 {
-  "plugins": [
-    ["babel-plugin-improved-piped-pipelines", { "operator": "|>" }]
-  ]
+	"plugins": [["babel-plugin-improved-piped-pipelines", { "operator": "|>" }]]
 }
 ```
 
