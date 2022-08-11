@@ -1,7 +1,7 @@
 // mostly taken from babel-plugin-syntax-pipeline-operator
-const { declare } = require('@babel/helper-plugin-utils')
+import { declare } from '@babel/helper-plugin-utils'
 
-module.exports = declare(syntax)
+export default declare(syntax)
 
 /**
  * @param {Record<string, any>} api

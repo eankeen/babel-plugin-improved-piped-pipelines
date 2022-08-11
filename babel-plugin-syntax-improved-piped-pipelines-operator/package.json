@@ -11,6 +11,7 @@
 		"babel-syntax",
 		"pipeline"
 	],
+	"type": "module",
 	"homepage": "https://github.com/eankeen/babel-improved-piped-pipelines#readme",
 	"bugs": {
 		"url": "https://github.com/eankeen/babel-improved-piped-pipelines/issues"
@@ -23,12 +24,12 @@
 	"main": "index.js",
 	"scripts": {},
 	"dependencies": {
-		"@babel/helper-plugin-utils": "^7.16.5"
+		"@babel/helper-plugin-utils": "^7.18.9"
 	},
 	"peerDependencies": {
 		"@babel/core": "^7.0.0-0"
 	},
 	"devDependencies": {
-		"@babel/core": "^7.16.5"
+		"@babel/core": "^7.18.10"
 	}
 }

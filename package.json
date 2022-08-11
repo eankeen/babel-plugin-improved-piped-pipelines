@@ -7,7 +7,7 @@
 	},
 	"devDependencies": {
 		"gulp": "^4.0.2",
-		"lerna": "^3.22.1",
-		"prettier": "^2.5.1"
+		"lerna": "^5.4.0",
+		"prettier": "^2.7.1"
 	}
 }

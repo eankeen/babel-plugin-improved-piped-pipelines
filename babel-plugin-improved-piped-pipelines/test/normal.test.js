@@ -1,6 +1,7 @@
 import path from 'path'
 import fs from 'fs'
 import test from 'ava'
+import url from 'url'
 import { transformAsync } from '@babel/core'
 import plugin from '../index.js'
 
@@ -20,11 +21,11 @@ async function read(
 	outputFilePath = 'fixtures/pipeline/out.js',
 ) {
 	const input = await fs.promises.readFile(
-		path.join(__dirname, inputFilePath),
+		path.join(path.dirname(url.fileURLToPath(import.meta.url)), inputFilePath),
 		{ encoding: 'utf8' },
 	)
 	const output = await fs.promises.readFile(
-		path.join(__dirname, outputFilePath),
+		path.join(path.dirname(url.fileURLToPath(import.meta.url)), outputFilePath),
 		{ encoding: 'utf8' },
 	)
 

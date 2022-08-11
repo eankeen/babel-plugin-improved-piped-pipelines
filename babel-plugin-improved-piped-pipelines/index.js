@@ -1,4 +1,4 @@
-const improvedPipedPipelinesOperator = require('babel-plugin-syntax-improved-piped-pipelines-operator')
+import improvedPipedPipelinesOperator from 'babel-plugin-syntax-improved-piped-pipelines-operator'
 
 /**
  * @param {string} operator
@@ -23,7 +23,7 @@ function checkOperator(operator) {
  * @param {Record<string, any>} api
  * @param {Record<string, any>} options
  */
-module.exports = function (api, options) {
+export default function (api, options) {
 	api.assertVersion(7)
 
 	if (options && options.proposal) {

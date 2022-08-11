@@ -1,6 +1,6 @@
 import test from 'ava'
 import { transformAsync } from '@babel/core'
-import plugin from '../'
+import plugin from '../index.js'
 
 const proposalVariants = ['|>', '&&', '||', '??'].map((op) => {
 	return {
