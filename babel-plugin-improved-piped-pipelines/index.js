@@ -7,14 +7,14 @@ function checkOperator(operator) {
 	const supportedOperators = new Set(['|>', '||', '&&', '??'])
 	let supportedOperatorsString = ''
 	supportedOperators.forEach(
-		(supportedOp) => (supportedOperatorsString += supportedOp + ' ')
+		(supportedOp) => (supportedOperatorsString += supportedOp + ' '),
 	)
 
 	if (!supportedOperators.has(operator)) {
 		throw new Error(
 			`the operator '${operator}' is not supported for the plugin` +
 				`babel-plugin-syntax-improved-pipelines. we support the following` +
-				`operators: ${supportedOperatorsString}`
+				`operators: ${supportedOperatorsString}`,
 		)
 	}
 }
@@ -53,9 +53,9 @@ module.exports = function (api, options) {
 					t.expressionStatement(
 						t.callExpression(
 							t.memberExpression(node.left, t.identifier('pipe')),
-							[node.right]
-						)
-					)
+							[node.right],
+						),
+					),
 				)
 			},
 			/**
@@ -72,9 +72,9 @@ module.exports = function (api, options) {
 					t.expressionStatement(
 						t.callExpression(
 							t.memberExpression(node.left, t.identifier('pipe')),
-							[node.right]
-						)
-					)
+							[node.right],
+						),
+					),
 				)
 			},
 		},
