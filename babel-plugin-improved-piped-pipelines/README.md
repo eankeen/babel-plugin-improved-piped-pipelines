@@ -41,7 +41,7 @@ gulp.src('style.css')
 ## Contributing
 
 ```sh
-git clone https://github.com/eankeen/babel-improved-piped-pipelines
+git clone https://github.com/hyperupcall/babel-improved-piped-pipelines
 cd babel-plugin-improved-piped-pipelines
 pnpm i -r
 pnpm publish
