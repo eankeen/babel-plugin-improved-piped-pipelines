@@ -1,7 +1,7 @@
 {
 	"name": "babel-plugin-syntax-improved-piped-pipelines-operator",
 	"description": "syntax for babel-plugin-improved-piped-pipelines",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"author": "Edwin Kofler",
 	"license": "MIT",
 	"files": [],
